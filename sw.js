@@ -3,7 +3,11 @@ const filesToCache = [
     './',
     './index.html',
     './css/style.css',
-    './js/main.js'
+    './js/main.js',
+    './favicon.ico',
+    './images/background.jpg',
+    './css/font.css',
+    './fonts/Roboto-Regular-webfont.woff',
 ];
 
 self.addEventListener('install', (event) => {

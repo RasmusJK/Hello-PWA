@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: robotoregular;
 }
 
 /* Make content area fill the entire browser window */
@@ -10,6 +10,10 @@ html,
     margin: 0;
     padding: 0;
     width: 100%;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Center the content in the browser window */

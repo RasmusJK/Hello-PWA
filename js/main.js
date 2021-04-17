@@ -6,7 +6,8 @@
             .register('./sw.js');
     }
 }*/
-(async() => {
+
+window.addEventListener('load',async() => {
     if ('serviceWorker' in navigator) {
         try {
             const worker = await navigator.serviceWorker.register('./sw.js');
@@ -15,4 +16,4 @@
             console.log(e.message);
         }
     }
-})();
+});
